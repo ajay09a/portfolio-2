@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-const Projects = () => {
-  return (
-    <div>Projects</div>
-  )
-}
+import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
+import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { projects } from '../../constants/constants';
 
-export default Projects
+const Projects = () => (
+  <div>
+    Projects
+  </div>
+);
+
+export default Projects;

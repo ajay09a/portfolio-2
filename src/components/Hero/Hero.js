@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-const Hero = () => {
-  return (
-    <div>Hero</div>
-  )
-}
+import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import Button from '../../styles/GlobalComponents/Button';
+import { LeftSection } from './HeroStyles';
 
-export default Hero
+const Hero = (props) => (
+  <div>
+    Hero
+  </div>
+);
+
+export default Hero;
